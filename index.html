@@ -3,41 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/logovermelha.png" type="image/x-icon">
     <title>Vinicius de Souza</title>
     <link rel="stylesheet" href="css/style.css">
     </head>
 <body>
+    <!-- NavBar -->
     <header>
         <nav>
-            <a class="logo" href="/">V. Souza</a>
+            <a id="link" class="logo" href="https://www.instagram.com/visz.dev/"><img id="logo-nav" src="/images/logo branca.png" alt=""></a>
             <div class="mobile-menu">
             <div class="line1"></div>
             <div class="line2"></div>
             <div class="line3"></div>
             </div>
         <ul class="nav-list">
-            <li><a href="#">Início</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a id="link" href="#">Início</a></li>
+            <li><a id="link" href="#sobre">Sobre</a></li>
+            <li><a id="link" href="#clientes">Clientes</a></li>
+            <li><a id="link" href="https://api.whatsapp.com/send?phone=5581985742601&text=Ol%C3%A1!%20Vim%20pelo%20site!" target="_blank">Contato</a></li>
         </ul>
         </nav>
     </header>
+    <!-- Imagem Central -->
     <main>
         <div class="inicio">
             <div class="container-inicio">
-                <h1 id="titulo">Portifólio</h1>
+                <h1 id="titulo">{ Portifólio }</h1>
                 <p id="sub-titulo">Vinícius de Souza</p>
             </div>
         </div>
     </main>
     <script src="js/scripts.js"></script>
+    <!-- Iformações Foco -->
     <section class="info">
         <h1 id="title-info">Transformando Empresas</h1>
         <p id="text-info">Seja bem-vindo ao meu mundo digital, onde códigos se transformam em experiências incríveis! Sou um desenvolvedor web apaixonado por transformar ideias em realidade, criando soluções inovadoras e funcionais para o mundo online. Meu portfólio é um reflexo do meu comprometimento com a excelência e a busca constante pela harmonia entre design e funcionalidade.</p>
     </section>
+    <!-- Sobre Mim -->
     <section id="sobre" class="sobre">
-        <a rel="noopener" href="https://www.instagram.com/visz.exe/" target="_blank"><img src="images/eupc.jpg" alt="Imagem Vinicius no computador" id="img-sobre"></a>
+        <a rel="noopener" href="https://www.instagram.com/visz.dev/" target="_blank"><img src="images/foto perfil.jpg" alt="Imagem Vinicius no computador" id="img-sobre"></a>
         <div class="info-sobre">
             <h1 id="title-sobre">Quem Sou?</h1>
             <p id="text-sobre">Meu nome é Vinícius de Souza, e sou um estudante de tecnologia com uma sólida experiência em desenvolvimento web. Ao longo da minha jornada, tenho trabalhado em uma variedade de projetos desafiadores que vão desde sites corporativos e portais de comércio eletrônico até aplicações web interativas e responsivas.</p>
@@ -46,10 +51,63 @@
             <p id="text-sobre">Acredito que o desenvolvimento web vai além de linhas de código. É uma forma de arte, uma expressão de criatividade e engenhosidade técnica. Minha abordagem é centrada no usuário, priorizando uma experiência do usuário intuitiva e agradável. Utilizo as mais recentes tecnologias e melhores práticas de desenvolvimento para garantir que cada projeto atenda não apenas aos requisitos funcionais, mas também às expectativas estéticas.</p>
         </div>
     </section>
+    <!-- Separador -->
     <section class="separador">
         <img src="images/bug-solid.svg" alt="" id="img-separador">
         <img src="images/code-solid.svg" alt="" id="img-separador">
         <img src="images/mug-saucer-solid.svg" alt="" id="img-separador">
     </section>
+    <!-- Clientes -->
+    <section class="clientes" id="clientes">
+        <div class="centraliza">
+            <h1 id="titulo-clientes">{ Clientes }</h1>
+        </div>
+        <div class="imagens-clientes">
+            <img src="/images/Logo Elaine.png" alt="Logo Elaine Lacerda Psicóloga" id="img-cliente-el">
+            <img src="/images/vrlogo.jpg" alt="Logo VR Veículos" id="img-cliente">
+            <img src="/images/logo solbene.png" alt="Logo Solbene" id="img-cliente-sb">
+            <img src="/images/logo proventus.png" alt="Logo Proventus Promoções" id="img-cliente">
+        </div>
+    </section>
+    <!-- Links Clientes -->
+    <section class="links-clientes">
+        <div class="centraliza">
+            <h1 id="titulo-link">Sites/Link's - Clientes</h1>
+        </div>
+            <div class="links-dos-clientes">
+                <p id="text-link">Elaine Lacerda Psicóloga (Landing Page) - <a id="link-link" href="https://elainelacerda.com" target="_blank">https://elainelacerda.com </a></p>
+                <p id="text-link">VR Veículos Recife (Ecommerce) - <a id="link-link" href="https://www.catalogovrveiculos.com" target="_blank">https://www.catalogovrveiculos.com</a></p>
+                <p id="text-link">Solbene Soluções e Benefícios (Site institucional) - <a id="link-link" href="https://www.solbene.com.br" target="_blank">https://www.solbene.com.br</a></p>
+                <p id="text-link">Proventus Promoções (Site institucional) - <a id="link-link" href="https://www.proventuspromo.com.br" target="_blank">https://www.proventuspromo.com.br</a></p>
+            </div>
+    </section>
+        <!-- Rodapé -->
+    <footer class="rodape">
+        <!-- Criação da div 'separar1' para separar a classe 'contato e localização' -->
+        <div class="separar1">
+            <div class="contato">
+                <span><strong>Contato</strong></span>
+                <p>vini.nelso@gmail.com </p>
+                <a id="telefone-contato" href="https://api.whatsapp.com/send?phone=5581985742601&text=Ol%C3%A1!%20Vim%20pelo%20site!"><p>(81) 98574-2601 </p></a>
+            </div>
+            <div class="localizacao">
+                <span><strong>Localização</strong></span>
+                <p>Recife, Rua Antônio Novais, graças, 86.</p>
+                <p>52050-280</p>
+            </div>
+        </div><br>
+        <!-- Criação da classe linha-cinza, para criação de uma linha para separar o rodade -->
+        <div class="linha-cinza"></div><br>
+        <!-- Criação da classe 'separar2', para separar a segunda parte do rodape -->
+        <div class="separar2">
+            <p>&copy; 2023 Vinícius de Souza, Inc.</p>
+            <ul class="icones-sociais">
+                <a href="https://www.instagram.com/thaismelopd/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/thaismelopd/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </ul>
+        </div>
+    </footer>    
 </body>
 </html>
