@@ -371,7 +371,7 @@ div.localizacao {
         top: 8vh;
         right: 0;
         width: 50vw;
-        height: 92vh;
+        height: 192vh;
         background-color: #1b1b1b;
         flex-direction: column;
         align-items: center;
@@ -394,6 +394,12 @@ div.localizacao {
 
     .info{
         display: block;
+    }
+
+    .central-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #title-info{
@@ -480,6 +486,12 @@ div.localizacao {
 
     .info{
         display: block;
+    }
+
+    .central-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #title-info{
@@ -595,10 +607,16 @@ div.localizacao {
         padding: 5%;
     }
 
+    .central-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     #title-info{
-        margin-left: 3%;
+        margin-left: 10%;
         font-size: 25px;
-        width: 300px;
+        width: 400px;
     }
 
     #text-info{
