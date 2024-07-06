@@ -1,7 +1,7 @@
 /* Estilização da seção de depoimentos */
 section#depoimentos-secao {
     position: relative;
-    padding: 100px 0;
+    padding: 100px;
     margin: 0 auto;
     background-color: var(--preto);
 }
@@ -131,9 +131,7 @@ section#depoimentos-secao {
 /* Media query para ajustar as propriedades vistas anteriormente para celular*/
 @media screen and (max-width: 620px) {
     section#depoimentos-secao {
-        margin-bottom: 30px;
         padding: 20px 10px 20px 10px;
-        max-width: 350px;
     }
 
     #depoimentos-secao button#anterior {
@@ -163,7 +161,6 @@ section#depoimentos-secao {
 @media screen and (min-width: 621px) and (max-width: 750px) {
     #depoimentos-secao {
         min-width: 600px;
-        max-width: 600px;
         padding: 0;
     }
 
@@ -186,7 +183,6 @@ section#depoimentos-secao {
     section#depoimentos-secao {
         padding: 50px 0;
         min-width: 72px;
-        max-width: 720px;
     }
 
     #depoimentos-secao button#anterior {
