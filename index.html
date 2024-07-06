@@ -13,20 +13,20 @@
 </head>
 <body>
     <!-- NavBar -->
-    <header>
+
         <nav class="nav">
             <a id="link" class="logo" target="_blank" href="https://www.instagram.com/visz.dev/"><img id="logo-nav" src="images/logo branca.png" alt="Logo Vinicius de Souza"></a>
 
             <button class="hamburguer"></button>
 
             <ul class="nav-list">
-                <li><a class="link" href="">Inicio</a></li>
-                <li><a class="link" href="">Sobre</a></li>
-                <li><a class="link" href="">Clientes</a></li>
+                <li><a class="link" href="#sobre">Sobre</a></li>
+                <li><a class="link" href="#serviços">Serviços</a></li>
+                <li><a class="link" href="#clientes">Clientes</a></li>
                 <li><a href="https://api.whatsapp.com/send?phone=5581985742601&text=Ol%C3%A1!%20Vim%20pelo%20site!" target="_blank" class="nav-orç">Solicitar Orçamento</a></li>
             </ul>
         </nav>
-    </header>
+
 
     <!-- Imagem Central -->
     <main>
@@ -67,8 +67,52 @@
     </section>
 
     <!-- Serviços -->
-    <section>
+    <section class="serviços" id="serviços">
+        <h1>{ Serviços }</h1>
 
+        <div class="container-serviços">
+            <div class="prod-serviços">
+                <div class="prod-serviços-img">
+                    <img src="images/computer.png" alt="Icone computador">
+                </div>
+                
+                <div class="prod-serviços-textos">
+                    <h1>Site</h1>
+                    <h2 class="vermelho">Preços a partir de R$499,99</h2>
+                    <h2>Converta Mais Leads com uma Landing Page Personalizada</h2>
+                    <p>A primeira impressão é crucial. Nossa landing page personalizada é projetada para capturar leads de maneira eficaz, aumentando suas taxas de conversão e ajudando seu negócio a crescer.</p>
+                    <a href="https://api.whatsapp.com/send?phone=5581985742601&text=Ol%C3%A1!%20Vim%20pelo%20site!" target="_blank"><button>Solicitar Orçamento</button></a>
+                </div>
+            </div>
+
+            <div class="prod-serviços">
+                <div class="prod-serviços-img">
+                    <img src="images/bulb.png" alt="Icone lampada">
+                </div>
+                
+                <div class="prod-serviços-textos">
+                    <h1>Software</h1>
+                    <h2 class="vermelho">Preços a partir de R$1.799,99</h2>
+                    <h2>Soluções de Software Web Sob Medida para Seu Negócio</h2>
+                    <p>Cada negócio é único, e suas necessidades também. Oferecemos desenvolvimento de software web personalizado para resolver problemas específicos e melhorar a eficiência do seu negócio.</p>
+                    <a href="https://api.whatsapp.com/send?phone=5581985742601&text=Ol%C3%A1!%20Vim%20pelo%20site!" target="_blank"><button>Solicitar Orçamento</button></a>
+                </div>
+            </div>
+
+            <div class="prod-serviços">
+                <div class="prod-serviços-img">
+                    <img src="images/headset.png" alt="Icone headset">
+                </div>
+                
+                <div class="prod-serviços-textos">
+                    <h1>Suporte</h1>
+                    <h2 class="vermelho">Preços a partir de R$100,00/mês</h2>
+                    <h2>Suporte Técnico Confiável para Seu Site e Aplicativos Web</h2>
+                    <p>Manter seu site ou aplicativo funcionando perfeitamente é crucial para o sucesso. Nosso serviço de suporte técnico garante que você tenha a assistência necessária para resolver problemas rapidamente.</p>
+                    <a href="https://api.whatsapp.com/send?phone=5581985742601&text=Ol%C3%A1!%20Vim%20pelo%20site!" target="_blank"><button>Solicitar Orçamento</button></a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Clientes -->
@@ -107,12 +151,103 @@
             </div>
 
             <div class="logos">
-                <a href="https://agenciapd.com" target="_blank"> <img src="images/Logo SBS.png" alt="Logo Step by Step"> </a>
+                <a href="https://www.agenciastepbystep.com" target="_blank"> <img src="images/Logo SBS.png" alt="Logo Step by Step"> </a>
+                <a href="" class="ver-site">Ver site</a>
+            </div>
+
+            <div class="logos">
+                <a href="https://eduardobritopsi.com" target="_blank"> <img src="images/Logo Eduardo.png" alt="Logo Eduardo Brito"> </a>
                 <a href="" class="ver-site">Ver site</a>
             </div>
 
         </div>
     </section>
+
+    <!-- Começo Depoimentos -->
+    <section id="depoimentos-secao" class="flex-container secao"> <!-- Sessão de depoimentos -->
+
+        <div class="title-dep">
+            <h1>{ Depoimentos }</h1>
+        </div>
+
+        <!-- Botões do carousel -->
+        <button id="anterior" class="carousel-button flex-container" type="button">&lt;</button>
+        <button id="proximo" class="carousel-button flex-container" type="button">&gt;</button>
+        <!-- Lista de depoimentos -->
+        <div id="depoimentos">
+            <!-- Item da lista de depoimentos -->
+            <div class="depoimento">
+                <!-- Perfil da pessoa que fez o depoimento -->
+                <div class="perfil-depoimento">
+                    <img class="imagem-depoimento" src="imagens dep/fotoPry.png" alt="Foto de perfil de Pryscilla Regis">
+                    <p class="nome-depoimento">Pryscilla Regis</p>
+                    <p class="instagram-depoimento">@studioqlinda
+                    </p>
+                </div>
+                <!-- O depoimento -->
+                <p class="comentario-depoimento">Não sabia q dava pra inovar assim
+                <br><br>
+                Eu ameeeeeiiiiiiiiiiiiiii
+                <br><br>
+                Ficou twonlindo 🩷🩷🩷
+            </p>
+            </div>
+            <div class="depoimento">
+                <div class="perfil-depoimento">
+                    <img class="imagem-depoimento" src="images/Logo SBS.png" alt="Foto de perfil de Elaine Lacerda">
+                    <p class="nome-depoimento">Agência SBS</p>
+                    <p class="instagram-depoimento">@agencia.sbs</p>
+                </div>
+                <p class="comentario-depoimento">Gostei pra c******!
+                    <br><br>
+                    Mais uma vez parabéns pelo seu esforço e talento 🔥🔥</p>
+            </div>
+            <div class="depoimento">
+                <div class="perfil-depoimento">
+                    <img class="imagem-depoimento" src="imagens dep/fotoArt.png" alt="Foto de perfil de Arthur Lima">
+                    <p class="nome-depoimento">Arthur Lima</p>
+                    <p class="instagram-depoimento">@arthuramancio.lima</p>
+                </div>
+                <p class="comentario-depoimento">Vinícius, acabei de fechar o primeiro cliente vindo do site que você fez. Você tá de parabéns.<br><br>
+                As pessoas estão vindo bem qualificadas🔥🚀
+            </div>
+            <div class="depoimento">
+                <div class="perfil-depoimento">
+                    <img class="imagem-depoimento" src="imagens dep/fotoSol.png" alt="Foto de perfil de Solbene">
+                    <p class="nome-depoimento">Solbene</p>
+                    <p class="instagram-depoimento">@solbenebr</p>
+                </div>
+                <p class="comentario-depoimento">Ficou uma maravilha 😍
+                    <br><br>
+                    Obrigada Vinícius!
+                    </p>
+            </div>
+            <div class="depoimento">
+                <div class="perfil-depoimento">
+                    <img class="imagem-depoimento" src="images/Logo Eduardo.png" alt="Foto de perfil de Eduardo">
+                    <p class="nome-depoimento">Eduardo Brito</p>
+                    <p class="instagram-depoimento">@psieduardobrito</p>
+                </div>
+                <p class="comentario-depoimento">Parabéns, ficou muito bem feito!<br><br>
+                    👏🏻👏🏻👏🏻
+
+                    <br><br>
+                    </p>
+            </div>
+            <div class="depoimento">
+                <div class="perfil-depoimento">
+                    <img class="imagem-depoimento" src="img/tochic.png" alt="">
+                    <p class="nome-depoimento">---</p>
+                    <p class="instagram-depoimento">@---</p>
+                </div>
+                <p class="comentario-depoimento">---<br><br>
+                    
+                    <br><br>
+                    </p>
+            </div>
+        </div>
+    </section>
+    <!-- Fim Depoimentos -->
 
         <!-- Rodapé -->
         <footer>

@@ -42,11 +42,15 @@ img {
 
 nav{
     display: flex;
-    padding: 60px 150px;
+    padding: 40px 150px;
     gap: 20px;
     justify-content: space-between;
     align-items: center;
     background-color: var(--preto);
+
+    position: sticky;
+    top: 0;
+    z-index: 99;
 }
 
 .logo img{
@@ -123,7 +127,10 @@ nav{
 
     nav{
         justify-content: space-between;
-        padding: 100px 20px 0px 20px;
+        padding: 40px 20px;
+
+        position: sticky;
+        top: 0;
     }
 
     .nav-list{
@@ -246,7 +253,7 @@ footer a:hover{
 }
 
 #copyright {
-    border-top: 2px var(--vermelho) solid;
+    /* border-top: 2px var(--vermelho) solid; */
     text-align: right; /* Alinhe para a direita */
     padding: 10px;
 }

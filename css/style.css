@@ -1,4 +1,5 @@
 @import url("base.css");
+@import url("carrossel.css");
 
 /*Fontes
 
@@ -59,6 +60,7 @@ font-family: 'Nova Square', sans-serif;
     color: var(--preto);
 }
 
+/* SOBRE */
 .sobre{
     padding: 100px 150px;
     display: flex;
@@ -104,6 +106,7 @@ font-family: 'Nova Square', sans-serif;
     text-align: justify;
 }
 
+/* SEPARADOR */
 .separador{
     padding: 60px;
     display: flex;
@@ -117,7 +120,87 @@ font-family: 'Nova Square', sans-serif;
     width: 8%;
 }
 
+/* SERVIÇOS */
+.serviços{
+    background-color: var(--preto);
+    padding: 40px 20px;
+}
 
+.serviços h1{
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 50px;
+    color: #ff3131;
+    margin-bottom: 40px;
+}
+
+.container-serviços{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.prod-serviços{
+    width: 50%;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: var(--branco);
+}
+
+.prod-serviços-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prod-serviços img{
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.prod-serviços-textos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-top: solid 3px var(--preto);
+}
+
+.prod-serviços-textos h1{
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 50px;
+    color: #ff3131;
+    margin-bottom: 0px;
+}
+
+.prod-serviços-textos p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.vermelho{
+    color: var(--vermelho-escuro);
+}
+
+.prod-serviços-textos button{
+    background-color: var(--vermelho);
+    color: var(--branco);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: var(--shadow);
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.prod-serviços-textos button:hover{
+    background-color: var(--vermelho-escuro);
+}
+
+
+/* CLIENTES */
 .clientes{
     background-color: var(--branco);
     padding: 100px 150px;
@@ -212,10 +295,18 @@ font-family: 'Nova Square', sans-serif;
     .clientes{
         padding: 50px 20px;
     }
+
+    .container-serviços{
+        flex-direction: column;
+    }
 }
 
-@media (max-width: 750px){
+@media (max-width: 750px) {
     .inicio h1{
         font-size: 400%;
+    }
+
+    .prod-serviços{
+        width: 100%;
     }
 }
